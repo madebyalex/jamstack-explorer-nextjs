@@ -1,6 +1,13 @@
+import Header from '../components/Header';
+import Head from 'next/head';
+
 function About({ pokemon }) {
   return (
     <>
+      <Head>
+        <title>Pokemon: {pokemon?.name}</title>
+      </Head>
+      <Header />
       <h1>Welcome, {pokemon?.name} friend!</h1>
       <img src={pokemon?.sprites.front_default} alt='' />
       <p>
