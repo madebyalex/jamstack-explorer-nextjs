@@ -1,7 +1,7 @@
 function About({ pokemon }) {
   return (
     <>
-      <h1>Welcome, {pokemon?.name} fan!</h1>
+      <h1>Welcome, {pokemon?.name} friend!</h1>
       <img src={pokemon?.sprites.front_default} alt='' />
       <p>
         Necessitatibus totam excepturi in. Lorem ipsum dolor sit amet
